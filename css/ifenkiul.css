@@ -1,13 +1,7 @@
 body a {
   text-decoration: none;
-  color: lightgray;
 }
-body a:hover {
-  color: #819595;
-}
-body a:active {
-  color: white;
-}
+
 .main {
   background-color: #fff;
   margin: 0 auto;
@@ -52,12 +46,23 @@ body a:active {
   line-height: 30px;
   list-style-type: none;
 }
+.main__left-links {
+  color: lightgray;
+}
+.main__left-links:hover {
+  color: palevioletred;
+  font-weight: bold;
+}
+.main__left-links:active {
+  color: red;
+  font-weight: bold;
+}
 .skillTitle {
   font-weight: bold;
   color: white;
 }
 .skillTitle.right {
-  color: #363946;
+  color: #819595;
 }
 .icon {
   vertical-align: middle;
@@ -91,6 +96,16 @@ body a:active {
 .main__right__infoBlock__list {
   list-style-type: none;
   padding: 0;
+}
+.main__right-links {
+  color: #819595;
+}
+.main__right-links:hover {
+  color: palevioletred;
+  font-weight: bold;
+}
+.main__right-links:active {
+  color: red;
 }
 @media (max-width: 600px) {
   .main {
