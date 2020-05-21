@@ -1,3 +1,13 @@
+body a {
+  text-decoration: none;
+  color: lightgray;
+}
+body a:hover {
+  color: #819595;
+}
+body a:active {
+  color: white;
+}
 .main {
   background-color: #fff;
   margin: 0 auto;
