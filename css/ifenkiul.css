@@ -40,10 +40,10 @@ body a {
 }
 
 .main__left__infoBlock__list {
-  display: block;
+  /* display: block; */
   padding-right: 30px;
   text-align: justify;
-  line-height: 30px;
+  /* line-height: 30px; */
   list-style-type: none;
 }
 .main__left-links {
@@ -64,11 +64,24 @@ body a {
 .skillTitle.right {
   color: #819595;
 }
-.icon {
-  vertical-align: middle;
-}
+
 .main__left__infoBlock__list-item {
   padding: 5px 0 5px;
+}
+.main__left-links {
+  display: block;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+}
+.main__left-links-text {
+  display: block;
+  padding-left: 10px;
+}
+.icon {
+  display: block;
+  height: 20px;
 }
 
 .main__right {
