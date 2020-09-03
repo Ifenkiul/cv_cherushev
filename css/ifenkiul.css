@@ -108,6 +108,7 @@ body a {
   border-top: 2px solid var(--main-blue-color);
 }
 .main__right__infoBlock-btn {
+  user-select: none;
   cursor: pointer;
 }
 .main__right__infoBlock-btn:hover {
