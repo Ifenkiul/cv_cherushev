@@ -91,6 +91,9 @@ body a {
   width: 65%;
   line-height: 30px;
 }
+.main__right .main__right__infoBlock:last-child {
+  border-bottom: 2px solid var(--main-blue-color);
+}
 .main__right h2 {
   font-size: 20px;
   color: #819595;
